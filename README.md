@@ -49,5 +49,6 @@ Release/license/dependency publication choices remain in the
 [Wispsy Composition Project](https://github.com/orgs/wispsy/projects/23).
 Build with `uv build --out-dir dist`; `python scripts/qualify.py dist` installs
 wheel/source artifacts outside the checkout, checks optional-profile isolation,
-actual commands/restart and synthetic terminal/table equivalence. CI qualifies
-Python 3.11 on Linux/Windows and Python 3.14 on Linux/macOS/Windows.
+actual commands/restart, synthetic terminal/table equivalence and native POSIX
+keyboard selection/run/quit with terminal restoration. CI qualifies Python 3.11
+on Linux/Windows and Python 3.14 on Linux/macOS/Windows.
