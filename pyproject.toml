@@ -6,15 +6,15 @@ readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "ellainng" }]
 dependencies = [
-    "wispsy @ git+https://github.com/wispsy/wispsy.git@bc23afa3f9ffa8669aef2cb713f8923bff98ea3d",
-    "scriptty @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd",
+    "wispsy @ git+https://github.com/wispsy/wispsy.git@e54f4812a68a9261e9aefbfbd35ddc95b2555507",
+    "scriptty @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf",
 ]
 
 [project.optional-dependencies]
-cli = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd"]
-sequence = ["scriptty[sequence] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd ; python_version >= '3.14'"]
-terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@b6db2c6f0b5011ccab67bc790d72b9efa3cb34fd ; python_version >= '3.14'"]
-table = ["wispsy[table] @ git+https://github.com/wispsy/wispsy.git@bc23afa3f9ffa8669aef2cb713f8923bff98ea3d ; python_version >= '3.14'"]
+cli = ["scriptty[cli] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf"]
+sequence = ["scriptty[sequence] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf ; python_version >= '3.14'"]
+terminal = ["scriptty[terminal] @ git+https://github.com/wispsy/scriptty.git@f7e1d35f27f997a2e30c6f04f3626f05d8be10cf ; python_version >= '3.14'"]
+table = ["wispsy[table] @ git+https://github.com/wispsy/wispsy.git@e54f4812a68a9261e9aefbfbd35ddc95b2555507 ; python_version >= '3.14'"]
 
 [project.scripts]
 peaches = "peaches.cli:main"
